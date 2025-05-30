@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AnteikuCafee</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('uuu.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+
+    p.description {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .features ul,
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .features li,
+    .menu li {
+      margin: 10px 0;
+      font-size: 1.1em;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 5px;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .menu-column {
+      width: 300px;
+      max-width: 90%;
+    }
+
+    .menu-column h3 {
+      text-decoration: underline;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .menu-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .menu-column li {
+      margin: 10px 0;
+      font-size: 1.1em;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 5px;
+    }
+
+    .cta {
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .cta button {
+      padding: 15px 30px;
+      font-size: 1em;
+      background-color: #009e60;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .cta button:hover {
+      background-color: #00794c;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    .history {
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .history img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .menu {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="ii.jpg" alt="Logo AnteikuCafee" />
+    <h1>AnteikuCafee</h1>
+    <p class="description">
+      Tempat ngopi dengan nuansa klasik dan damai, terinspirasi dari budaya kedai Jepang. Rasakan ketenangan dalam setiap tegukan.
+    </p>
+  </header>
+
+  <section>
+    <h2>Menu Kami</h2>
+    <div class="menu">
+      <div class="menu-column">
+        <h3>☕ Minuman</h3>
+        <ul>
+          <li>Espresso - Rp20.000</li>
+          <li>Cappuccino - Rp28.000</li>
+          <li>Matcha Latte - Rp32.000</li>
+          <li>Cold Brew - Rp30.000</li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <h3>🍰 Makanan</h3>
+        <ul>
+          <li>Japanese Cheesecake - Rp25.000</li>
+          <li>Onigiri Tuna Mayo - Rp18.000</li>
+          <li>Katsu Sandwich - Rp35.000</li>
+          <li>Oreo Parfait - Rp22.000</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Kenapa Pilih Kami?</h2>
+    <ul>
+      <li>☕ Kopi racikan khas dengan cita rasa unik</li>
+      <li>📚 Suasana tenang dan cozy untuk kerja atau santai</li>
+      <li>🌐 Wi-Fi gratis & charging station</li>
+      <li>🍰 Menu ringan ala Jepang & handmade pastries</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sejarah AnteikuCafee</h2>
+    <div class="history">
+      <p>
+        Didirikan pada tahun 2015, AnteikuCafee terinspirasi dari kedai fiksi legendaris dalam budaya pop Jepang. Dimulai dari sebuah sudut kecil di pusat kota, tempat ini menjadi tempat pelarian bagi para pecinta kopi, pembaca buku, dan pencari ketenangan.
+        Filosofi kami adalah “melayani dengan hati dan memberi ruang untuk damai.” Interior klasik kami dan aroma kopi segar telah menjadi ciri khas yang tak tergantikan.
+      </p>
+      <img src="qq.jpg" alt="Foto Bersejarah AnteikuCafee">
+    </div>
+  </section>
+
+  <div class="cta">
+    <button onclick="location.href='https://wa.me/6285256502569'">Hubungi Kami</button>
+  </div>
+
+  <footer>
+    &copy; 2025 AnteikuCafee. All rights reserved.
+  </footer>
+
+</body>
+</html>
